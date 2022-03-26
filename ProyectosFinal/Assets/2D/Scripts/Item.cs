@@ -17,7 +17,11 @@ public class Item : MonoBehaviour
         Vector3 mouse = Input.mousePosition;
         Ray castPoint = Camera.main.ScreenPointToRay(mouse);
         RaycastHit hit;
+<<<<<<< Updated upstream
         if (clicked && Physics.Raycast(castPoint, out hit, Mathf.Infinity, hitLayers))
+=======
+        if (clicked)
+>>>>>>> Stashed changes
         {
             transform.position = hit.point;
         }

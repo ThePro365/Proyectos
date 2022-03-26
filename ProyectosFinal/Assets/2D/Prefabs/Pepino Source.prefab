@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2570736122308085993
+--- !u!1 &1784519052057194662
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,83 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2570736122308085990}
-  - component: {fileID: 2570736122308085991}
+  - component: {fileID: 6404197921888916585}
+  - component: {fileID: 8862546966994696520}
+  - component: {fileID: 4284929561665739172}
+  m_Layer: 0
+  m_Name: Pepino Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6404197921888916585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784519052057194662}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1.5518, y: 1.5518, z: 1.5518}
+  m_Children:
+  - {fileID: 8877165800576861138}
+  - {fileID: 8877165801784412654}
+  - {fileID: 8877165800187233524}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &8862546966994696520
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784519052057194662}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &4284929561665739172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784519052057194662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97ce483bd22db242819c6220e3dcb8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DroppedItem: {fileID: 0}
+  mousePosition: {x: 0, y: 0, z: 0}
+--- !u!1 &8877165800187233531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8877165800187233524}
+  - component: {fileID: 8877165800187233525}
   m_Layer: 0
   m_Name: Pepinito
   m_TagString: Untagged
@@ -17,27 +92,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2570736122308085990
+--- !u!4 &8877165800187233524
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736122308085993}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -3.16, y: -5.66, z: 0}
-  m_LocalScale: {x: 1.5678529, y: 1.5678529, z: 1.5678529}
+  m_GameObject: {fileID: 8877165800187233531}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -0.20785, y: -0.292, z: 0}
+  m_LocalScale: {x: 2.4502406, y: 2.4502406, z: 2.4502406}
   m_Children: []
-  m_Father: {fileID: 2570736123867759437}
+  m_Father: {fileID: 6404197921888916585}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!212 &2570736122308085991
+--- !u!212 &8877165800187233525
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736122308085993}
+  m_GameObject: {fileID: 8877165800187233531}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -82,7 +157,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2570736123202047939
+--- !u!1 &8877165800576861137
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,8 +165,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2570736123202047936}
-  - component: {fileID: 2570736123202047937}
+  - component: {fileID: 8877165800576861138}
+  - component: {fileID: 8877165800576861139}
   m_Layer: 0
   m_Name: Pepino
   m_TagString: Untagged
@@ -99,27 +174,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2570736123202047936
+--- !u!4 &8877165800576861138
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123202047939}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.9470005, y: -6.348378, z: 0.7109306}
-  m_LocalScale: {x: -2.359443, y: -2.359443, z: -2.359443}
+  m_GameObject: {fileID: 8877165800576861137}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.21, z: 0}
+  m_LocalScale: {x: -3.6873376, y: -3.6873376, z: -3.6873376}
   m_Children: []
-  m_Father: {fileID: 2570736123867759437}
+  m_Father: {fileID: 6404197921888916585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2570736123202047937
+--- !u!212 &8877165800576861139
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123202047939}
+  m_GameObject: {fileID: 8877165800576861137}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -164,7 +239,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2570736123867759438
+--- !u!1 &8877165801784412653
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,81 +247,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2570736123867759437}
-  - component: {fileID: 2570736123867759436}
-  - component: {fileID: 2570736123867759439}
-  m_Layer: 0
-  m_Name: Pepino Source
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2570736123867759437
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123867759438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2570736123202047936}
-  - {fileID: 2570736123869611516}
-  - {fileID: 2570736122308085990}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2570736123867759436
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123867759438}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.24602792, y: -0.7000452}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.61435145, y: 0.5968647}
-  m_EdgeRadius: 0
---- !u!114 &2570736123867759439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123867759438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c97ce483bd22db242819c6220e3dcb8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &2570736123869611519
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2570736123869611516}
-  - component: {fileID: 2570736123869611517}
+  - component: {fileID: 8877165801784412654}
+  - component: {fileID: 8877165801784412655}
   m_Layer: 0
   m_Name: Pepino
   m_TagString: Untagged
@@ -254,27 +256,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2570736123869611516
+--- !u!4 &8877165801784412654
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123869611519}
+  m_GameObject: {fileID: 8877165801784412653}
   m_LocalRotation: {x: 0.27656788, y: 0.9609944, z: -0, w: 0}
-  m_LocalPosition: {x: 7.6569996, y: -11.827999, z: 0.7109306}
-  m_LocalScale: {x: -2.359443, y: -2.359443, z: -2.359443}
+  m_LocalPosition: {x: 0, y: 0.07839, z: 0.01}
+  m_LocalScale: {x: -3.6873372, y: -3.6873379, z: -3.6873376}
   m_Children: []
-  m_Father: {fileID: 2570736123867759437}
+  m_Father: {fileID: 6404197921888916585}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 32.111}
---- !u!212 &2570736123869611517
+--- !u!212 &8877165801784412655
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570736123869611519}
+  m_GameObject: {fileID: 8877165801784412653}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
